@@ -64,6 +64,64 @@ Open first.html in browser
 https://github.com/tufailahm/aon
 
 
+====================================================
+
+
+Angular
+
+==========
+npm install -g @angular-cli
+
+ng new product-aon-app
+
+-------------------
+
+Data binding
+{{ 	}}
+
+
+Angular CLI
+==================
+
+ng generate component manager
+
+ng generate component components/manager
+
+-- 
+ng g c components/manager
+
+ ng g c components/employee
+
+
+Property binding	[ 	]
+Event binding	(	)
+Interpolation
+Data Binding	-{{title}}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

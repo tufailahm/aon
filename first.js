@@ -44,6 +44,7 @@ var log = function (originalConstructor) {
             args[_i] = arguments[_i];
         }
         console.log("Arguments: ", args.join(", "));
+        document.body.innerHTML = "Arguments: ", args.join(", ");
         new originalConstructor(args);
     }
     newConstructor.prototype = originalConstructor.prototype;
