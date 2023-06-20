@@ -192,29 +192,74 @@ getColor(country:any) {
 Hands on
 ===========
 
-Create product.ts with the following property (create class and not an interface)
+a) Create product.ts with the following property (create class and not an interface)
 
 productId
 productName
 quantityOnHand
 price
 
+Solution :
 
-Create a new component productList and list all the information
+export class Product
+{
+    productId! : number;
+    productName! : string;
+    quantityOnHand! : number;
+    price! : number;
+}
 
-create an array to add three product information.
+
+b) Create a new component productList and list all the information
+Solution : ng g c components/productList
 
 
-Display the information like this : 
+c) create an array to add three product information.
+
+Solution : 
+products: Product[] = [
+    {
+      "productId": 1,
+      "productName": "Lakme",
+      "quantityOnHand": 199,
+      "price": 200
+    },
+
+    {
+      "productId": 2,
+      "productName": "Mouse",
+      "quantityOnHand": 299,
+      "price": 2300
+    },
+
+    {
+      "productId": 3,
+      "productName": "Laptop",
+      "quantityOnHand": 300,
+      "price": 98000
+    }
+  ]
+
+d) Display the information like this : 
 Product Id 	Product name	QuantityOnHand		Price
 1 		Lakme 		199 			200
 2 		Mouse 		200 			900
 3		Laptop		300 			400
 
-​https://forms.office.com/r/QjMCjPTYeX
+
+Solution :
+
+<ul>
+    <li *ngFor="let product of products">
+            {{ product.productId}}  -
+            {{ product.productName}} -
+            {{ product.quantityOnHand}}
+            {{ product.price}}
+    </li>
+</ul>
 
 
-
+========================================================
 
 
 
