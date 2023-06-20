@@ -189,7 +189,27 @@ getColor(country:any) {
 
 
 
+Hands on
+===========
 
+Create product.ts with the following property (create class and not an interface)
+
+productId
+productName
+quantityOnHand
+price
+
+
+Create a new component productList and list all the information
+
+create an array to add three three information.
+
+
+Display the information like this : 
+Product Id 	Product name	QuantityOnHand		Price
+1 		Lakme 		199 			200
+2 		Mouse 		200 			900
+3		Laptop		300 			400
 
 
 
