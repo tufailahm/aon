@@ -95,15 +95,73 @@ ng g c components/manager
 
 Property binding	[ 	]
 Event binding	(	)
-Interpolation
+Interpolation	{{	}}
 Data Binding	-{{title}}
 
 
+		
+======================
+node  - install
+
+
+npm 
+
+
+npm install -g @angular-cli
+
+
+
+Npm basics 
+
+
+ng new 
+Webpack
+
+package.json
+tsconfig.json
 
 
 
 
 
+
+NgStyle :
+
+people.ts
+
+export interface People {
+    name: string,
+    country: string
+}
+
+
+---------
+
+  //people complex object
+  people: People[] = [
+    {
+      "name": "Tufail Ahmed",
+      "country": 'IN'
+    },
+    {
+      "name": "Neha Sharma",
+      "country": 'UK'
+    },
+    {
+      "name": "Ravi Kiran",
+      "country": 'IN'
+    },
+    {
+      "name": "Tarun Sharma",
+      "country": 'IN'
+    },
+    {
+      "name": "Cook Tyson",
+      "country": 'USA'
+    }
+  ];
+
+}
 
 
 
