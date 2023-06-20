@@ -163,8 +163,28 @@ export interface People {
 
 }
 
--
+-  
 
+getColor(country:any) {
+    switch (country) {
+      case 'UK':
+        return 'green';
+      case 'USA':
+        return 'blue';
+      case 'IN':
+        return 'red';
+      default :
+        return 'yellow';
+    }
+  }
+
+===============
+
+<h4>NgStyle</h4>
+<ul *ngFor="let person of people">
+    <li [ngStyle]="{'color':getColor(person.country)}"> {{ person.name }} ({{ person.country }})
+    </li>
+</ul>
 
 
 
