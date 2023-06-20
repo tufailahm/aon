@@ -202,7 +202,7 @@ price
 
 Create a new component productList and list all the information
 
-create an array to add three three information.
+create an array to add three product information.
 
 
 Display the information like this : 
