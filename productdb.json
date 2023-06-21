@@ -1,0 +1,22 @@
+{
+  "product": [
+    {
+      "productId": "12",
+      "productName": "Printer",
+      "quantityOnHand": "12",
+      "price": "12"
+    },
+    {
+      "productId": "20",
+      "productName": "WaterBottle",
+      "quantityOnHand": 1,
+      "price": 12
+    },
+    {
+      "productId": "91817",
+      "productName": "NewProduct",
+      "quantityOnHand": "199",
+      "price": "20"
+    }
+  ]
+}

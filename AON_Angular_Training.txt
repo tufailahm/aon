@@ -318,8 +318,7 @@ angular services
 
 Hands on --- Services
 
-Create a service known as CurrencyConvertor in which create a method to accept two currency numbers and and 
-add 
+Create a service known as CurrencyConvertor in which create a method to accept two currency numbers and
 
 
 currencyValue(90,)
@@ -330,7 +329,7 @@ currencyValue(90,)
 Create a component to accept and renders the output 
 
 
-currencyValue(98000,"INR")
+currencyValue(currencyValue:number,currencyType:string)
 {
 	// REST API 
 	currencyRate = 1
@@ -348,7 +347,17 @@ Expected output : The value of 500 in INR is : 500
 
 
 
+http://localhost:4200/assets/productData.json
 
+
+https://jsonplaceholder.typicode.com/todos
+
+==============================================
+
+json-server 	- fake rest api generator
+
+
+localhost:
 
 
 
