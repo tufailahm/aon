@@ -261,6 +261,99 @@ Solution :
 
 ========================================================
 
+Lifecycle
+
+
+====
+
+class Hello
+{
+	int i=100;
+	
+	const()		???
+	{
+	}
+}
+
+
+
+
+ngOnInit()
+ngOnChanges
+ngOnDestroy()
+
+
+====================================
+Services
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Problem : 
+new object is getting created 
+scarcity of the resources
+ultimately impact the performance
+violationg SRP principle
+
+
+Dependency Injection- spring
+
+angular services
+
+Hands on --- Services
+
+Create a service known as CurrencyConvertor in which create a method to accept two currency numbers and and 
+add 
+
+
+currencyValue(90,)
+{
+	
+}
+
+Create a component to accept and renders the output 
+
+
+currencyValue(98000,"INR")
+{
+	// REST API 
+	currencyRate = 1
+	if (INR then name
+	if any other multiplied by 3
+}
+Expected output : The value of 500 in INR is : 500
+
+ The value of 500 in US is : 1500
+
+
+
+20 minutes
+
+
+
+
+
+
+
+
+
+
 
 
 
