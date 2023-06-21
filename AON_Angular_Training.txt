@@ -357,7 +357,68 @@ https://jsonplaceholder.typicode.com/todos
 json-server 	- fake rest api generator
 
 
-localhost:
+npm install -g json-server
+
+H:\aondemos>json-server --watch productdb.json --id productId
+
+
+Routing
+================
+
+
+Programmatic routing 
+Routing Parameters
+================
+
+
+
+productDetail/productSummary/pid
+
+
+productDetail/productSummary/19171
+
+productDetail/productSummary/neha
+
+productDetail/productSummary/pune
+
+productDetail/productSummary/pid		
+
+
+
+
+Hands on :
+
+
+In about us component , specify some emergency phone numbers as :
+
+Emergency Numbers 
+123   -- Details
+456   -- Details
+789   -- Details
+987   -- Details
+
+
+EmergencyDetailComponent
+
+Clicking on details beside the number should display full details about the numbers
+
+like 
+
+
+123	belongs to fire
+987	belongs to ambulance
+789	belongs to earthquake
+456	belongs to theft
+
+
+
+
+
+
+
+
+
+
 
 
 

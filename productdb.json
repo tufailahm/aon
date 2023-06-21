@@ -17,6 +17,12 @@
       "productName": "NewProduct",
       "quantityOnHand": "199",
       "price": "20"
+    },
+    {
+      "productId": 999,
+      "productName": "Biryani",
+      "quantityOnHand": 98,
+      "price": 399
     }
   ]
 }
